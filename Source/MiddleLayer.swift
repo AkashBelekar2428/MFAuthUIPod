@@ -334,7 +334,7 @@ extension MiddleLayer : AuthenticationLogInDelegate {
         
         let dataObj = TAAuthRespObj?.data
         
-        var isUserNamePasswordComp = dataObj?.componentType == .USERNAME_PASSWORD
+        let isUserNamePasswordComp = dataObj?.componentType == .USERNAME_PASSWORD
         
         let requestObj = TAAuthenticateRequest.init()
         let modelObj = TAAuthenticateRequestModelObj.init()
@@ -390,8 +390,8 @@ extension MiddleLayer : PINViewDelegate {
     func validateBtnAction(pinNumber: String) {
         print("PING VIEW ==> \(pinNumber)")
         let dataObj = TAAuthRespObj?.data
-        var requestObj = TAAuthenticateRequest.init()
-        var modelObj = TAAuthenticateRequestModelObj.init()
+        let requestObj = TAAuthenticateRequest.init()
+        let modelObj = TAAuthenticateRequestModelObj.init()
         modelObj.pin = pinNumber
         modelObj.authFactorType = dataObj!.nextAuthFactor
         modelObj.currentAuthStep = dataObj!.nextStep

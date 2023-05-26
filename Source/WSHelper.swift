@@ -46,7 +46,7 @@ class WSHelper: NSObject {
     
     private func headers() -> HTTPHeaders
     {
-        var headers: HTTPHeaders = [
+        let headers: HTTPHeaders = [
             "Content-Type": "application/json",
             "Accept": "application/json"
         ]
