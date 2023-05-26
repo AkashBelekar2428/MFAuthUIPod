@@ -4,6 +4,10 @@ platform :ios, '10.0'
 
 target 'MFAthuUI_Example' do
   pod 'MFAthuUI', :path => '../'
+  pod 'Alamofire', '~> 5.4'
+  pod 'ObjectMapper', '~> 4.2'
+  pod 'SVProgressHUD'
+
 
   target 'MFAthuUI_Tests' do
     inherit! :search_paths

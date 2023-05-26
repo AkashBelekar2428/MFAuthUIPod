@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MFAthuUI'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of MFAthuUI.'
+  s.version          = '1.1.0'
+  s.summary          = 'Easy to Use MFAthuUI Library.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+'You can use it. easily lighewigted, fast performance.'
                        DESC
 
   s.homepage         = 'https://github.com/akashbelekar2428/MFAthuUI'
@@ -28,9 +28,14 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/akashbelekar2428/MFAthuUI.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '14.0'
+  s.swift_version = '5.0'
+  s.source_files = 'Source/**/*'
+  s.dependency 'Alamofire', '~> 5.4'
+  s.dependency 'SVProgressHUD'
+  s.dependency 'ObjectMapper', '~> 4.2'
 
-  s.source_files = 'MFAthuUI/Classes/**/*'
+  
   
   # s.resource_bundles = {
   #   'MFAthuUI' => ['MFAthuUI/Assets/*.png']

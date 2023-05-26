@@ -1,16 +1,34 @@
 PODS:
-  - MFAthuUI (0.1.0)
+  - Alamofire (5.7.1)
+  - MFAthuUI (1.1.0):
+    - Alamofire (~> 5.4)
+    - ObjectMapper (~> 4.2)
+    - SVProgressHUD
+  - ObjectMapper (4.2.0)
+  - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
+  - Alamofire (~> 5.4)
   - MFAthuUI (from `../`)
+  - ObjectMapper (~> 4.2)
+  - SVProgressHUD
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ObjectMapper
+    - SVProgressHUD
 
 EXTERNAL SOURCES:
   MFAthuUI:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MFAthuUI: 3a2a84370644ef8fd43e455872d7e5e0aa327055
+  Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
+  MFAthuUI: 34c5216f6d59e66e9acc896493142cd151730251
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: bfe71df3364957b4b06137ae824bd2c491d5a4a5
+PODFILE CHECKSUM: 4b5d44c8fafa3b8914ef078e6732599bd226cb03
 
 COCOAPODS: 1.12.1
