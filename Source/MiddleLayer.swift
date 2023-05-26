@@ -9,7 +9,7 @@
 
 import Foundation
 import UIKit
-import TAAuthenticationUI
+//import TAAuthenticationUI
 import ObjectMapper
 import SVProgressHUD
 

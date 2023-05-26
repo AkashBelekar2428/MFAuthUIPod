@@ -9,6 +9,7 @@
 
 import Foundation
 import ObjectMapper
+import Alamofire
 
 enum responseObject
 {
