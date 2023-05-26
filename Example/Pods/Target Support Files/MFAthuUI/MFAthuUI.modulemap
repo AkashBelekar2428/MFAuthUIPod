@@ -1,0 +1,6 @@
+framework module MFAthuUI {
+  umbrella header "MFAthuUI-umbrella.h"
+
+  export *
+  module * { export * }
+}

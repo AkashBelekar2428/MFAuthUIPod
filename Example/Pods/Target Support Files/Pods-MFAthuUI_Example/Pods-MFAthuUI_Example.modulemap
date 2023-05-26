@@ -1,0 +1,6 @@
+framework module Pods_MFAthuUI_Example {
+  umbrella header "Pods-MFAthuUI_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
